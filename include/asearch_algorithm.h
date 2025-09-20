@@ -2,6 +2,8 @@
 #define ASEARCH_ALGORITHM_H
 
 #include <list>
+#include <fstream>
+#include <iostream>
 
 #include "../include/state.h"
 
