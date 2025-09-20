@@ -7,4 +7,4 @@ class DFS : public ASearch_algorithm {
 
 };
 
-#endif DFS_H
+#endif //DFS_H

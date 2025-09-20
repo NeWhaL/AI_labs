@@ -22,4 +22,4 @@ public:
   void get_child_elements(State state);  
 };
 
-#endif ASEARCH_ALGORITHM_H
+#endif //ASEARCH_ALGORITHM_H

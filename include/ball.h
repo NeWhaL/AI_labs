@@ -11,4 +11,4 @@ public:
   Ball(Color c);
 };
 
-#endif BALL_H
+#endif //BALL_H

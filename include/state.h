@@ -21,4 +21,4 @@ public:
   void rotate_counterclockwise(int circle_number);
 };
 
-#endif STATE_H
+#endif //STATE_H
