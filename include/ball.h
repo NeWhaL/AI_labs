@@ -8,7 +8,9 @@ public:
   Color color;
   
   Ball() = default;
+  Ball(char c);
   Ball(Color c);
+  char get_char_color();
 };
 
 #endif //BALL_H

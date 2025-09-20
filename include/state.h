@@ -2,6 +2,7 @@
 #define STATE_H
 
 #include <array>
+#include <string>
 #include "ball.h"
 
 class State {
@@ -14,11 +15,14 @@ public:
   static const int amount_circle;
 
   State(State* parent = nullptr);
+  State(const std::string& state);
   State(const State& s);
   State& operator = (const State& s);
 
   void rotate_clockwise(int circle_number);
   void rotate_counterclockwise(int circle_number);
+  std::string get_string_state();
+  State* get_parent();
 };
 
 #endif //STATE_H

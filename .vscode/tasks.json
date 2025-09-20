@@ -7,7 +7,7 @@
       "args": [
         "-fdiagnostics-color=always",
         "-g",
-        "${file}",
+        "./src/*",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}"
       ],
